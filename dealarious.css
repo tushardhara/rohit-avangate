@@ -1,0 +1,244 @@
+/* This is our css */
+
+.tesing{
+	/*haha*/
+}
+.gbtr_tools_wrapper{
+	background: #000;
+	color: #fff;
+	height: 30px;
+	overflow: hidden;
+	line-height: 1em;
+}
+.gbtr_header_wrapper {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f4f4f4;
+	margin-bottom: 30px;
+	position: relative;
+}
+.container_12 {
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+max-width: 960px;
+padding-left: 20px;
+}
+.clearfix:before, .clearfix:after, .container_12:before, .container_12:after {
+content: '.';
+display: block;
+overflow: hidden;
+visibility: hidden;
+font-size: 0;
+line-height: 0;
+width: 0;
+height: 0;
+}
+.container_12 .grid_3 {
+width: 220px;
+}
+.container_12 .grid_3 {
+display: inline;
+margin-left: 0px;
+margin-right: 0px;
+height: 73px;
+}
+.gbtr_logo {
+padding: 0 0;
+display: block;
+}
+.gbtr_logo img {
+height: auto;
+max-width: inherit !important;
+}
+#order__content, #order__header {
+width: 100%;
+}
+.order__box .order__box__title .order__box__aux1 {
+background-image: none !important;
+background-position: none;
+height: auto !important;
+}
+.order__box .order__box__title .order__box__aux2 {
+background-color: #fff !important;
+border: none !important;
+border-bottom: 2px solid 000 !important;
+color: 000000;
+margin: 0px;
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 24px;
+font-family: Arvo, Arial, Helvetica, sans-serif;
+text-align: left;
+}
+.order__box .order__box__title .order__box__aux2 {
+/* margin: 0 19px 0 19px; */
+height: auto; 
+overflow: inherit !important;
+font-weight: normal !important;
+text-align: left !important;
+}
+.order__box .order__box__title {
+background-image: none !important;
+background-position: center;
+height: auto !important;
+}
+.order__box .order__box__content {
+background-color: FFFFFF;
+/* border-left: 1px solid CCCCCC; */
+/* border-right: 1px solid CCCCCC; */
+border: none !important;
+border: 1px solid #CAB893 !important;
+padding: 5px !important;
+}
+.order__box .order__box__footer {
+background-image: none !important;
+background-position: right -168px;
+height: auto !important;
+}
+.order__box .order__box__footer .order__box__aux1 {
+background-image: none !important;
+background-position: left -168px;
+height: auto !important;
+}
+.order__box .order__box__footer .order__box__aux2 {
+ background-color: #FFFFFF;
+ border-bottom: none !important; 
+}
+.order__box .order__box__footer .order__box__aux2 {
+margin: 0 !important; 
+height: auto !important;
+overflow: inherit !important; 
+}
+
+.order__box .order__box__header {
+background-image: none !important;
+background-position: right -160px;
+overflow: inherit !important;
+height: auto !important;
+}
+.order__box .order__box__header .order__box__aux1 {
+background-image: none !important;
+background-position: left -160px;
+height: auto !important;
+}
+
+.order__box .order__box__header .order__box__aux2 {
+background-color: none !important;
+border-top: none !important;
+}
+.order__box .order__box__header .order__box__aux2 {
+ margin: 0 !important;
+ border-top: none !important; 
+height: auto !important;
+ overflow: inherit !important; 
+}
+BODY, TD, INPUT, SELECT {
+font-family: Arial, sans-serif;
+color: #111111;
+font-size: 12px !important;
+}
+.order__total {
+font-size: 200% !important;
+font-weight: bold;
+margin-right: 15px;
+}
+#order__cart__contents .order__listing__row TD {
+padding: 5px !important;
+text-align: center;
+}
+#order__page__checkout .order__listing__header__unit__price {
+text-align: center !important;
+}
+#order__page__checkout .order__listing__header__total__price {
+text-align: center !important;
+}
+.order__product__discount__price {
+text-align: center !important;
+}
+#order__page__checkout .order__checkout__products__table {
+width: 100% !important;
+padding: 0 !important;
+}
+.order__listing__header {
+font-weight: bold;
+/* font-size: 32px !important; */
+background: rgb(202, 184, 147) !important;
+color: #fff;
+text-align: center !important;
+}
+
+#order__page__checkout .order__listing__header__unit__price {
+text-align: center;
+}
+#order__page__checkout .order__listing__header__name,
+#order__page__checkout .order__listing__header__delivery,
+#order__page__checkout .order__listing__header__qty,
+#order__page__checkout .order__listing__header__unit__price,
+#order__page__checkout .order__listing__header__total__price{
+	font-size: 18px !important;
+	padding: 5px !important;
+	color: #fff !important;
+}
+
+#order__cart__contents .order__listing__row TD {
+padding: 5px !important;
+text-align: center !important;
+}
+#order__sub__total__row TD{
+	padding: 5px;
+}
+.order__sub__total {
+	text-align: center;
+	float: right;
+	margin-right: 15px !important;
+}
+#order__page__checkout .order__giftoption {
+	padding: 5px !important;
+}
+#order__page__checkout .order__vat__note {
+	padding: 5px !important;
+}
+.order__finish__button {
+font-weight: bold;
+font-size: 22px !important;
+color: #FFFFFF !important;
+background-color: #000 !important;
+border: none !important;
+margin: 2px;
+border: none;
+padding: 5px 10px !important;
+border-radius: 5px !important;
+}
+.order__checkout__billing{
+	width: 100% !important;
+	padding: 5px !important;
+}
+.order__verify__products__table{
+	width: 100%;
+}
+.order__products__listing .order__box__content{
+	padding: 0 !important;
+}
+.order__listing__header .order__listing__header__index,
+.order__listing__header .order__listing__header__name,
+.order__listing__header .order__listing__header__total__price{
+	text-align: center !important;
+	font-size: 18px !important;
+	padding: 5px !important;
+	color: #fff !important;
+}
+
+
+#order__totals table,
+#order__delivery table,
+#order__ccprocess__form table {
+width: 100%;
+padding: 5px;
+}
+.order__checkout__products__table .order__sub__total,.order__checkout__products__table .order__total {
+	margin-right: 10px !important
+}
+.order__sub__total, .order__total {
+	margin-right: 5px !important
+}
